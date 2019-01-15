@@ -115,7 +115,7 @@ Our project is to build an authentication system.
 3. _As_ an authenticate user, _I want_ to create a group _so that_ I could be a group admin.
 4. _As_ a group admin, _I want_ to add or delete user _so that_ I could make my group grow.
 5. _As_ a group member, _I want_ to get a list of all _so that_ I could list most recent posts.
-6. _As_ an anonymous user, _I want_ to get a list of all groups _so that_ I could ask to join one of them.
+6. _As_ an authenticated user, _I want_ to get a list of all groups _so that_ I could ask to join one of them.
 7. _As_ an API operator, _I want_ secure my apis _so that_ I could deliver a good service to end-users.
 
 ### Organize your application
