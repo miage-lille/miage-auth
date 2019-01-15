@@ -1,0 +1,26 @@
+{
+  "name": "miage-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "prettier": "prettier --single-quote --trailing-comma es5 --write \"./src/**/*.js\" ",
+    "eslint": "eslint . --fix",
+    "dev": "env-cmd .env node ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miage-lille/miage-auth.git"
+  },
+  "engines": {
+    "node": "^10"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miage-lille/miage-auth/issues"
+  },
+  "homepage": "https://github.com/miage-lille/miage-auth#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}
