@@ -417,7 +417,13 @@ module.exports = api;
 
 3. Secure you api
 
-Install `hpp` and `helmet` npm libs and setup the middlewares.
+Install [hpp](https://www.npmjs.com/package/hpp) and [helmet](https://www.npmjs.com/package/helmet) npm libs and setup the middlewares.
+
+NPM also check if your dependencies have known vulnerabilities
+
+```sh
+npm audit
+```
 
 4. Deploy your application to Clever-Cloud (PaaS Provider)
 
@@ -425,5 +431,5 @@ Install `hpp` and `helmet` npm libs and setup the middlewares.
 - Create a pico env with a free postgresql addon
 - Setup your environment variables
 - Add a clever remote to your Git
-- Git push your application
+- Git push your application. [Read the doc](https://www.clever-cloud.com/doc/nodejs/nodejs/)
 - Think to stop the app when you're not using it
